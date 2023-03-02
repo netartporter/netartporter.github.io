@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>URL aléatoire</title>
+  </head>
+  <body>
+    <h1>URL aléatoire</h1>
+    <p>Chargement de l'URL aléatoire...</p>
+    <script>
+      var urls = [
+        "https://example.com/page1",
+        "https://example.com/page2",
+        "https://example.com/page3"
+      ];
+      var randomUrl = urls[Math.floor(Math.random() * urls.length)];
+      window.location.href = randomUrl;
+    </script>
+  </body>
+</html>
