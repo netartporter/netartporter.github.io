@@ -16,7 +16,7 @@
 }
 
 body{
-    background-image: url(/base-web/src/toiletgifleger.gif);
+    background-image: url(../src/toiletgifleger.gif");
     background-repeat: repeat;
     background-position: center; 
 }
