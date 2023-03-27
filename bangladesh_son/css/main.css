@@ -1,0 +1,28 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../src/img/factory.jpg") ;
+}
+
+audio{
+    width: 100%;
+    /* supprime un effet non voulu de marge sur ces deux éléments spécifiques */
+    display: block;
+}
+
+main{
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main section{
+    width: 100%;
+    margin-top: 300px;
+    padding: 5px;
+}
