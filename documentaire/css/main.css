@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "";
+    src: url();
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root{
+    --variable : rgb(255,0,0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:var(--exemplevariable);
+}
