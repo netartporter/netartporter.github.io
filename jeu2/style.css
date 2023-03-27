@@ -1,0 +1,35 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: #fff;
+}
+
+#scoreboard {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#start-button {
+	font-size: 20px;
+	padding: 10px;
+	background-color: #00a1ff;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+canvas {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #000;
+	background-color: #eee;
+}
