@@ -1,0 +1,72 @@
+@font-face {
+    font-family: monospace;
+    src: url();
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root{
+    --variable : rgb(255,0,0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow:hidden;
+    color:white;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    }
+    
+    #eau {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color: blue;
+    }
+    #play{
+        margin-top: 10px;
+        height: 40px;
+        width: 100px;
+        background-color: black;
+        border-radius: 10px;
+        margin: auto;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    #panier {
+        position: absolute;
+        left: 350px;
+        bottom: 50px;
+        width: 100px;
+        height: 20px;
+        background-color: white;
+    }
+    
+    .carré {
+        position: absolute;
+        top: -50px;
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        transition: top 2s ease;
+    }
+    
+    .bleu {
+        background-color: blue;
+    }
+    
+    .jaune {
+        background-color: yellow;
+    }
+
+
