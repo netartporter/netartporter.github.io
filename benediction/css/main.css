@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "";
+    src: url();
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root{
+    --variable : rgb(255,0,0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../src/GIF.gif");
+    background-size: 100%;
+}
+
+audio{
+    margin: auto;
+    display: block;
+}
+
+main{
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50%;
+}
+
+
