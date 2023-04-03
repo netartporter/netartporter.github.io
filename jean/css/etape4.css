@@ -1,0 +1,106 @@
+body{
+    display:grid;
+    grid-template-columns: 2vw 1fr 2vw;
+grid-template-rows: 1fr;
+max-height: 1700px;
+
+} 
+
+#jeans{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.ajust{
+    position: absolute;
+    width: 8%;
+    left: 46%;
+    z-index: 3;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+}
+
+#fermeture{
+    margin-top: 22%;
+}
+#jean{
+    z-index: 1;
+    gr
+    position: absolute;
+    width: 100%;
+  
+}
+
+#bouton{
+    margin-top: 16%;
+    width:5%;
+   
+
+}
+#bouture{
+    width: 22%;
+    left: 35%;
+    margin-top: 21%;
+
+}
+
+#australie{
+    display: none;
+}
+#rdc{
+    display: none;
+}
+#japon{
+    display: none;
+}
+
+#pays{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#a{
+    width: 80%;
+}
+#j{
+    width: 40%;
+}
+
+#sou{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#souris{
+    position: absolute;
+    z-index: 5;
+    margin-left: 25%;
+    top: 30%;
+    width: 50%;
+    transform: rotate(145deg);
+}
+#souris1{
+    position: absolute;
+    z-index: 5;
+    margin-left: 63%;
+    top: -1%;
+    width: 50%;
+    transform: rotate(75deg);
+}
+#souris2{
+    position: absolute;
+    z-index: 5;
+    margin-left: 12%;
+    top: 15%;
+    width: 50%;
+    transform: rotate(145deg);
+}
